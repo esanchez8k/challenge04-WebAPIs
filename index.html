@@ -10,7 +10,7 @@
 
 <body>
     <!-- main outer div -->
-    <div class="outer-div">
+    <div class="outer-container">
         <!-- nav bar with view high score button and Timer -->
         <nav id="navbar" class="navbar">
             <!-- view high score page button -->
@@ -21,8 +21,17 @@
         <!-- inner div for changing content-->
         <div>
             <!-- quiz intro/start quiz button -->
-            <header class="quiz-intro">
+            <header id= "page-intro" class="page-intro">
+                <h1> The Ultimate Coding Quiz </h1>
+                <p>
+                   Hey! Do you think you got what it takes to take the ultimate coding quiz of all coding quizzes?
+                   All you have to do is answer each coding-related questions that pop up on the screen before the timer runs out!
+                   Easy enough, right? WRONG! All incorrect answer will result in a 10second deuction from your timer.
+                   Let's see if you can make it on the high score board muhahaha! Are you ready for it? 
 
+                   Press Start Quiz to begin!
+                </p>
+                <button id="start-button"> Start Quiz </button>
             </header>
             <!-- main content/quiz content -->
             <main class="questions">
